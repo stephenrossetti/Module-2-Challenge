@@ -28,7 +28,7 @@
         </ul>
      </nav>
     </header>
-     <img src="./assets/Images/Marble.jpeg" alt="marble texture" class="subtitle"/>
+     <img src="./assets/Images/Marble.jpeg" alt="marble texture" class="transitiionbar"/>
     <main class="main">
         <section id="About-Me" class="main-section">
             <img src="./assets/Images/HeadShot.jpg" alt="Headshot of Stephen Rossetti" class="float-left" />
@@ -47,9 +47,24 @@
         <section id="Contact-Me" class="main-section">
             <img src="./assets/Images/Josie.PNG" alt="Placeholder Text" class="float-left" />
             <h2>Contact Me</h2>
+            <form>
             <p>
-                Add Text.
+                <label for="contactname">Name:</label>
+                <input class="text-input" id="contactname" type="text" placeholder="First Name Last Name"
             </p>
+            <p>
+                <label for="contactemail">Email:</label>
+                <input class="text-input" id="contactemail" type="text" placeholder="email@gmail.com"
+            </p>
+            <p>
+                <label for="contactphone">Phone:</label>
+                <input class="text-input" id="contactphone" type="text" placeholder="(XXX)-XXX-XXXX"
+            </p>
+            <p>
+                <label for="contactcomments">Comments:</label>
+                <textarea class="text-input" id="contactcomments" type="text" placeholder="Add Comments Here..."></textarea>
+            </p>
+            </form>
         </section>
         <section id="Resume" class="main-section">
             <img src="./assets/Images/Resume.png" alt="Screenshot of top of resume" class="float-left" />

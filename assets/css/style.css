@@ -51,7 +51,7 @@ a:hover {
     cursor: pointer;
 }
 
-.subtitle {
+.transitiionbar {
     height: 50px;
     width: 100%;
     background-position: center;
@@ -92,6 +92,23 @@ img {
 .main-section h2 {
     margin-bottom: 10px;
     font-size: 36px;
+}
+
+label {
+    display: block;
+}
+
+.text-input:hover {
+    box-shadow: 0 0 5px var(--maroon);
+}
+
+.text-input:focus {
+    background-color: var(--grey)
+}
+
+.text-input:placeholder-shown {
+    border-style: dashed;
+    border-color: var(--grey);
 }
 
 .float-left {
