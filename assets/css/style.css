@@ -60,6 +60,10 @@ a:hover {
     margin-bottom: 20px;
 }
 
+.text {
+    margin: 10px;
+}
+
 img {
     height: 100px;
     width: 100%;
@@ -98,8 +102,9 @@ label {
     display: block;
 }
 
-.text-input:hover {
+.text-input:hover, button:hover {
     box-shadow: 0 0 5px var(--maroon);
+    cursor: pointer;
 }
 
 .text-input:focus {
