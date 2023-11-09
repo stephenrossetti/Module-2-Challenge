@@ -83,6 +83,7 @@ img {
     margin-bottom: 20px;
 }
 
+
 /* Special hover effects for resume img to indicate it should be clicked */
 section a img:hover {
     box-shadow: 0 0 50px var(--white);
@@ -105,19 +106,34 @@ section a img:hover {
 }
 
 /* All projects + titles formatting */
+
 .project {
     padding: 10px;
-    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
   }
 
 /* Just the title bars of projects formatting */
 .project p {
+    width: 300px;
     background: var(--grey);
     color: #fff;
     font-size: 20px;
     border: 1px solid black;
+    text-align: center;
   }
 
+#feature-project{
+    width: 85%;
+}
+
+#feature-project p{
+ width: 500px;
+}
 .main {
     width: 100%;
     display: inline-block;
@@ -141,7 +157,12 @@ section a img:hover {
 
 .main-mywork img {
     width: 300px;
-    height: 350px;
+    height: auto;
+}
+
+#feature-project img {
+    width: 500px;
+    height: auto;
 }
 
 .main-top h2, .main-mywork h2, .main-bottom h2 {
@@ -164,7 +185,6 @@ section a img:hover {
 .main-mywork {
     margin-bottom: 20px;
     padding: 20px;
-    height: 500px;
     font-family: 'Serif';
     background-color: var(--light);
     color: #ffffff;
