@@ -10,8 +10,8 @@ Create new repository and start code from scratch.
 
 ## Mock-Up
 
-![alt text](https://github.com/stephenrossetti/Module-2-Challenge/blob/main/assets/Images/Mock-Up.png)
-![alt text](https://github.com/stephenrossetti/Module-1-Challenge/blob/main/assets/images/Mock-Up2.png)
+![alt text](https://github.com/stephenrossetti/Module-2-Challenge/blob/main/assets/Images/MockUpTop.png)
+![alt text](https://github.com/stephenrossetti/Module-2-Challenge/blob/main/assets/Images/MockUpBottom.png)
 
 ## Usage
 
