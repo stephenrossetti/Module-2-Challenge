@@ -89,23 +89,6 @@ section a img:hover {
     cursor: pointer;
 }
 
-.main-mywork nav {
-    font-size: 25px;
-    margin: 20px 0px 10px 0px;
-}
-
-/* inline-block allows project nav bar to be a row and not stacked*/
-.main-mywork nav ul li {
-    display: inline-block;
-}
-
-/* unqiue IDs to give each project title */
-#P1 {margin-left: 95px;}
-#P2 {margin-left: 190px;}
-#P3 {margin-left: 195px;}
-#P4 {margin-left: 195px;}
-#P5 {margin-left: 195px;}
-
 /* When a project is finished and a colored image is updated, it will display grayscale unless hovered */
 .finished-projects {
     filter: grayscale(100%);
@@ -117,10 +100,21 @@ section a img:hover {
     box-shadow: 0 0 50px var(--white);
     cursor: pointer;
     filter: grayscale(0%);
-    transform: scale(1.1);
+    transform: scale(1.2);
     position: relative;
-    left: 10px;
 }
+
+.project {
+    padding: 10px;
+    text-align: center;
+  }
+  
+.project p {
+    background: var(--grey);
+    color: #fff;
+    font-size: 20px;
+    border: 1px solid black;
+  }
 
 .main {
     width: 100%;
@@ -144,13 +138,41 @@ section a img:hover {
 }
 
 .main-mywork img {
-    width: 286px;
+    width: 300px;
     height: 350px;
 }
 
 .main-top h2, .main-mywork h2, .main-bottom h2 {
     margin-bottom: 10px;
     font-size: 36px;
+}
+
+/* Adjust the subtitle different */
+.subtitle {
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding: 20px;
+    height: 80px;
+    font-family: 'Serif';
+    background-color: var(--light);
+    color: #ffffff;
+    border: 5px solid #700000;
+    text-align: center;
+}
+
+/* Adjust the MyWork section to be bigger and more prominant */
+.main-mywork {
+    margin-bottom: 20px;
+    padding: 20px;
+    height: 500px;
+    font-family: 'Serif';
+    background-color: var(--light);
+    color: #ffffff;
+    border: 5px solid #700000;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Resume and Contact me section with adjusted formatting because they are smaller */
@@ -164,18 +186,6 @@ section a img:hover {
     color: #ffffff;
     border: 5px solid #700000;
     display: inline-block;
-}
-
-/* Adjust the MyWork section to be bigger and more prominant */
-.main-mywork {
-    margin-bottom: 20px;
-    padding: 20px;
-    height: 500px;
-    font-family: 'Serif';
-    background-color: var(--light);
-    color: #ffffff;
-    border: 5px solid #700000;
-    display: block;
 }
 
 /* Display block for "label" that will be used for contact me block inputs below */
