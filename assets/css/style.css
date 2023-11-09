@@ -60,7 +60,7 @@ a:hover {
     margin-bottom: 20px;
 }
 
-.text {
+.main-text {
     margin: 10px;
 }
 
@@ -86,7 +86,7 @@ section a img:hover {
     display: inline-block;
 }
 
-.main-section {
+.main-top {
     margin-bottom: 20px;
     padding: 20px;
     height: 250px;
@@ -96,15 +96,37 @@ section a img:hover {
     border: 5px solid #700000;
 }
 
-.main-section img {
+.main-top img,.main-mywork img, .main-bottom img {
     width: 200px;
     height: 200px;
     max-height: 200px;
 }
 
-.main-section h2 {
+.main-top h2, .main-mywork h2, .main-bottom h2 {
     margin-bottom: 10px;
     font-size: 36px;
+}
+
+.main-bottom {
+    margin-bottom: 20px;
+    padding: 20px;
+    height: 250px;
+    width: 49.85%;
+    font-family: 'Serif';
+    background-color: var(--light);
+    color: #ffffff;
+    border: 5px solid #700000;
+    display: inline-block;
+}
+
+.main-mywork {
+    margin-bottom: 20px;
+    padding: 20px;
+    height: 250px;
+    font-family: 'Serif';
+    background-color: var(--light);
+    color: #ffffff;
+    border: 5px solid #700000;
 }
 
 label {
