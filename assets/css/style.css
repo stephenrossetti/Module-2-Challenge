@@ -104,11 +104,13 @@ section a img:hover {
     position: relative;
 }
 
+/* All projects + titles formatting */
 .project {
     padding: 10px;
     text-align: center;
   }
-  
+
+/* Just the title bars of projects formatting */
 .project p {
     background: var(--grey);
     color: #fff;
@@ -147,16 +149,14 @@ section a img:hover {
     font-size: 36px;
 }
 
-/* Adjust the subtitle different */
+/* Adjust the My Work subtitle different */
 .subtitle {
-    font-size: 30px;
-    margin-bottom: 20px;
-    padding: 20px;
-    height: 80px;
+    font-size: 36px;
     font-family: 'Serif';
-    background-color: var(--light);
+    background-color: var(--maroon);
     color: #ffffff;
     border: 5px solid #700000;
+    border-bottom: none;
     text-align: center;
 }
 
@@ -233,3 +233,9 @@ label {
     margin-left: 5px;
     margin-right: 5px;
 }
+
+@media screen and (max-width: 992px) {
+    .project {
+      width: 50%;
+    }
+  }
