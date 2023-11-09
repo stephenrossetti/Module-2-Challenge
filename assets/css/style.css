@@ -44,11 +44,11 @@ body {
 }
 
 /* Makes nav bar only white*/
-a {
+.naveffect {
     color:var(--white);
 }
 
-a:hover {
+.naveffect:hover {
     color:var(--white);
     text-shadow: 0 0 5px var(--white);
     cursor: pointer;
@@ -89,6 +89,22 @@ section a img:hover {
     cursor: pointer;
 }
 
+/* When a project is finished and a colored image is updated, it will display grayscale unless hovered */
+.finished-projects {
+    filter: grayscale(100%);
+    transition: transform .5s;
+}
+
+/* Adds color when hovered */
+.finished-projects:hover {
+    box-shadow: 0 0 50px var(--white);
+    cursor: pointer;
+    filter: grayscale(0%);
+    transform: scale(1.2);
+    position: relative;
+    left: 15px;
+}
+
 .main {
     width: 100%;
     display: inline-block;
@@ -108,13 +124,11 @@ section a img:hover {
 .main-top img, .main-bottom img {
     width: 200px;
     height: 200px;
-    max-height: 200px;
 }
 
 .main-mywork img {
     width: 286px;
-    height: 400px;
-    max-height: 350px;
+    height: 350px;
 }
 
 .main-top h2, .main-mywork h2, .main-bottom h2 {
