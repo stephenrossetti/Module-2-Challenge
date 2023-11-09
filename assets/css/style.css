@@ -105,10 +105,16 @@ section a img:hover {
     border: 5px solid #700000;
 }
 
-.main-top img,.main-mywork img, .main-bottom img {
+.main-top img, .main-bottom img {
     width: 200px;
     height: 200px;
     max-height: 200px;
+}
+
+.main-mywork img {
+    width: 286px;
+    height: 400px;
+    max-height: 350px;
 }
 
 .main-top h2, .main-mywork h2, .main-bottom h2 {
@@ -138,6 +144,7 @@ section a img:hover {
     background-color: var(--light);
     color: #ffffff;
     border: 5px solid #700000;
+    display: block;
 }
 
 /* Display block for "label" that will be used for contact me block inputs below */
