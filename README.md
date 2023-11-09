@@ -11,6 +11,7 @@ Create new repository and start code from scratch.
 ## Mock-Up
 
 ![alt text](https://github.com/stephenrossetti/Module-2-Challenge/blob/main/assets/Images/MockUpTop.png)
+![alt text](https://github.com/stephenrossetti/Module-2-Challenge/blob/main/assets/Images/MockupMiddle.png)
 ![alt text](https://github.com/stephenrossetti/Module-2-Challenge/blob/main/assets/Images/MockUpBottom.png)
 
 ## Usage
