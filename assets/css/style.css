@@ -180,7 +180,7 @@ section a img:hover {
     margin-bottom: 20px;
     padding: 20px;
     height: 250px;
-    width: 49.85%;
+    width: 100%;
     font-family: 'Serif';
     background-color: var(--light);
     color: #ffffff;
@@ -225,4 +225,11 @@ label {
 
 .footer h2 {
     font-size: 20px;
+}
+
+.footer ul li {
+    padding: 10px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
 }
