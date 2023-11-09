@@ -89,6 +89,23 @@ section a img:hover {
     cursor: pointer;
 }
 
+.main-mywork nav {
+    font-size: 25px;
+    margin: 20px 0px 10px 0px;
+}
+
+/* inline-block allows project nav bar to be a row and not stacked*/
+.main-mywork nav ul li {
+    display: inline-block;
+}
+
+/* unqiue IDs to give each project title */
+#P1 {margin-left: 95px;}
+#P2 {margin-left: 190px;}
+#P3 {margin-left: 195px;}
+#P4 {margin-left: 195px;}
+#P5 {margin-left: 195px;}
+
 /* When a project is finished and a colored image is updated, it will display grayscale unless hovered */
 .finished-projects {
     filter: grayscale(100%);
