@@ -14,6 +14,7 @@ body {
     background-color: var(--grey);
 }
 
+/* Header with name and nav bar*/
 .header {
     padding: 20px;
     font-family: 'Serif';
@@ -36,11 +37,13 @@ body {
     font-size: 20px;
 }
 
+/* inline-block allows nav bar to be a row and not stacked*/
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Makes nav bar only white*/
 a {
     color:var(--white);
 }
@@ -51,6 +54,7 @@ a:hover {
     cursor: pointer;
 }
 
+/* Marble block transition for effect. No border on top since header has bottom border already*/
 .transitiionbar {
     height: 50px;
     width: 100%;
@@ -60,14 +64,17 @@ a:hover {
     margin-bottom: 20px;
 }
 
+/* Text for about me aka the main part of the page*/
 .main-text {
     margin: 10px;
 }
 
+/* Text for resume section. This is bigger for the importance and to fill space*/
 .resume {
     font-size: 20px;
 }
 
+/* General image sizes for each section*/
 img {
     height: 100px;
     width: 100%;
@@ -76,6 +83,7 @@ img {
     margin-bottom: 20px;
 }
 
+/* Special hover effects for resume img to indicate it should be clicked */
 section a img:hover {
     box-shadow: 0 0 50px var(--white);
     cursor: pointer;
@@ -86,6 +94,7 @@ section a img:hover {
     display: inline-block;
 }
 
+/* About me section with standard formatting */
 .main-top {
     margin-bottom: 20px;
     padding: 20px;
@@ -107,6 +116,7 @@ section a img:hover {
     font-size: 36px;
 }
 
+/* Resume and Contact me section with adjusted formatting because they are smaller */
 .main-bottom {
     margin-bottom: 20px;
     padding: 20px;
@@ -119,34 +129,40 @@ section a img:hover {
     display: inline-block;
 }
 
+/* Adjust the MyWork section to be bigger and more prominant */
 .main-mywork {
     margin-bottom: 20px;
     padding: 20px;
-    height: 250px;
+    height: 500px;
     font-family: 'Serif';
     background-color: var(--light);
     color: #ffffff;
     border: 5px solid #700000;
 }
 
+/* Display block for "label" that will be used for contact me block inputs below */
 label {
     display: block;
 }
 
+/* Text input hover effect and button effect */
 .text-input:hover, button:hover {
     box-shadow: 0 0 5px var(--maroon);
     cursor: pointer;
 }
 
+/* Grey when typing in box */
 .text-input:focus {
     background-color: var(--grey)
 }
 
+/* Placeholder text before the user types */
 .text-input:placeholder-shown {
     border-style: dashed;
     border-color: var(--grey);
 }
 
+/* Main pictures float to left of block */
 .float-left {
     float: left;
     margin-right: 20px;
